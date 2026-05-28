@@ -130,7 +130,7 @@ const MemorySection = () => {
                     transition={{ duration: 0.8 }}
                     className="text-4xl md:text-6xl font-black text-center mb-24"
                 >
-                    The Boys
+                    {/* The Boys */}
                 </motion.h1>
 
                 <div className="space-y-56">
@@ -201,7 +201,7 @@ const MemorySection = () => {
                     transition={{ duration: 0.8 }}
                     className="text-4xl md:text-6xl font-black text-center mb-24"
                 >
-                    The Girls
+                    {/* The Girls */}
                 </motion.h1>
 
                 <div className="space-y-56">

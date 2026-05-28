@@ -4,7 +4,7 @@ const boys = [
     {
         name: "Prathmesh Narode",
         memory:
-            "From bench partners to random roaming, from bunked lectures to unnecessary chaos — first year would not have felt the same without him",
+            "From bunked lectures to random roaming and nonstop chaos, first year genuinely would not have felt the same without him. What started as just being bench partners slowly became one of the realest friendships of the year, filled with random jokes, unnecessary adventures, and memories that never felt planned",
     },
 
     {

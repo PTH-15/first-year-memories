@@ -14,10 +14,6 @@ const Navbar = () => {
           <a href="#memories" className="hover:text-violet-400 transition">
             Memories
           </a>
-
-          <a href="#quote" className="hover:text-violet-400 transition">
-            Quote
-          </a>
         </div>
       </div>
     </nav>

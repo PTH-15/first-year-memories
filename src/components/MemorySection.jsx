@@ -131,7 +131,7 @@ const MemorySection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7 }}
                             viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center px-10 md:px-24 ${index % 2 !== 0
+                            className={`grid md:grid-cols-2 gap-20 items-center px-16 md:px-40 ${index % 2 !== 0
                                 ? "md:[&>*:first-child]:order-2"
                                 : ""
                                 }`}
@@ -200,7 +200,7 @@ const MemorySection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7 }}
                             viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center px-10 md:px-24 ${index % 2 !== 0
+                            className={`grid md:grid-cols-2 gap-20 items-center px-16 md:px-40 ${index % 2 !== 0
                                 ? "md:[&>*:first-child]:order-2"
                                 : ""
                                 }`}

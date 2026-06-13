@@ -54,7 +54,7 @@ const girls = [
         memory:
             "Between managing the group and randomly scolding me",
     },
-    
+
     {
         name: "Mansi Patil",
         memory:
@@ -131,7 +131,7 @@ const MemorySection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7 }}
                             viewport={{ once: true }}
-                           className={`grid md:grid-cols-2 gap-20 items-center px-10 md:px-24 ${index % 2 !== 0
+                            className={`grid md:grid-cols-2 gap-20 items-center px-10 md:px-24 ${index % 2 !== 0
                                 ? "md:[&>*:first-child]:order-2"
                                 : ""
                                 }`}
@@ -152,7 +152,7 @@ const MemorySection = () => {
                                 />
                             </motion.div>
 
-                            <div className="space-y-6">
+                            <div className="space-y-6 pl-8 md:pl-16">
                                 <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                     FIRST YEAR MEMORY
                                 </p>
@@ -165,11 +165,9 @@ const MemorySection = () => {
 
 
 
-                                <h2 className="text-4xl md:text-5xl font-black leading-tight">
-                                    {name}
+                                <h2>
+                                    {person.name}
                                 </h2>
-
-                                <div className="w-24 h-[2px] bg-violet-400" />
 
                                 <p className="text-gray-400 text-lg leading-loose max-w-xl">
                                     {person.memory}
@@ -223,7 +221,7 @@ const MemorySection = () => {
                                 />
                             </motion.div>
 
-                            <div className="space-y-6">
+                            <div className="space-y-6 pl-8 md:pl-16">
                                 <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                     FIRST YEAR MEMORY
                                 </p>
@@ -238,13 +236,10 @@ const MemorySection = () => {
                                     {person.memory}
                                 </p>
 
-                                <h2 className="text-4xl md:text-5xl font-black leading-tight">
-                                    {name}
+                                <h2>
+                                    {person.name}
                                 </h2>
 
-                                <div className="w-24 h-[2px] bg-pink-400" />
-
-                                
                             </div>
 
                         </motion.div>

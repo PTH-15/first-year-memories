@@ -112,7 +112,7 @@ const MemorySection = () => {
 
             {/* BOYS SECTION */}
 
-            <div className="px-6 md:px-20 pt-40 pb-32">
+            <div className="px-6 md:px-20 pt-40% pb-32%">
 
                 <motion.h1
                     initial={{ opacity: 0, y: -40 }}
@@ -129,7 +129,8 @@ const MemorySection = () => {
                                 key={index}
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                // style={{ marginLeft: "200px" }}
+                                style={{ marginLeft: "10%" }}
+                                // style={{ marginBottom: "5%" }}
                                 transition={{ duration: 0.7 }}
                                 viewport={{ once: true }}
                                 className={`max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
@@ -154,9 +155,9 @@ const MemorySection = () => {
                                 </motion.div>
 
                                 <div className="space-y-6">
-                                    <p className="uppercase tracking-[8px] text-sm text-violet-400">
+                                    {/* <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                         FIRST YEAR MEMORY
-                                    </p>
+                                    </p> */}
 
                                     <h2 className="text-4xl md:text-5xl font-black leading-tight">
                                         {person.name}
@@ -181,7 +182,7 @@ const MemorySection = () => {
 
             {/* GIRLS SECTION */}
 
-            <div className="px-6 md:px-20 pt-40 pb-32 bg-[#050816]">
+            <div className="px-6 md:px-20 pt-40% pb-32 bg-[#050816]">
 
                 <motion.h1
                     initial={{ opacity: 0, y: -40 }}
@@ -199,7 +200,7 @@ const MemorySection = () => {
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.7 }}
-                                // style={{ marginLeft: "200px" }}
+                                style={{ marginLeft: "10%" }}
                                 viewport={{ once: true }}
                                 className={`max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
                                     ? "md:[&>*:first-child]:order-2"
@@ -223,9 +224,9 @@ const MemorySection = () => {
                                 </motion.div>
 
                                 <div className="space-y-6">
-                                    <p className="uppercase tracking-[8px] text-sm text-violet-400">
+                                    {/* <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                         FIRST YEAR MEMORY
-                                    </p>
+                                    </p> */}
 
                                     <h2 className="text-4xl md:text-5xl font-black leading-tight">
                                         {person.name}

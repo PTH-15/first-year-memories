@@ -85,7 +85,7 @@ const MemorySection = () => {
 
             <div className="relative h-screen overflow-hidden">
                 <img
-                    src="/images/group-photo.jpg"
+                    src="/first-year-memories/images/group-photo.jpg"
                     alt="group"
                     className="w-full h-full object-cover opacity-60"
                 />

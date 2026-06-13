@@ -7,7 +7,7 @@ const Hero = () => {
       className="h-screen flex items-center justify-center relative overflow-hidden"
     >
       <img
-        // src="/images/hero.jpg"
+        src="/first-year-memories/images/hero.jpg"
         className="absolute w-full h-full object-cover opacity-40"
       />
 

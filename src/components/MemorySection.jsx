@@ -6,35 +6,45 @@ const boys = [
         memory:
             "From bunked lectures to random roaming and nonstop chaos, first year genuinely would not have felt the same without him. What started as just being bench partners slowly became one of the realest friendships of the year, filled with random jokes, unnecessary adventures, and memories that never felt planned",
     },
-
     {
         name: "Arjun Sawant",
         memory:
             "The kind of guy who looked clueless",
     },
-
     {
         name: "Pruthviraj Patil",
         memory:
             "Most Chaotic Person I've Ever Met",
     },
-
     {
         name: "Chaitanya Kharude",
         memory:
             "The calm one in the chaos, but somehow always part of the best memories",
     },
-
     {
         name: "Ganesh Mahajan",
         memory:
             "The kind of friend who never took anything seriously",
     },
+    {
+        name: "Daksh Tembre",
+        memory:
+            "The one who was funniest and but has more mood swings than girl",
+    },
+    {
+        name: "Prabhu Pahanapate",
+        memory:
+            "The One who motivates me to start my learning journey of the programming",
+    },
+    {
+        name: "Aryan Bhosale",
+        memory:
+            "My after college ride buddy",
+    }
 ];
 
 const girls = [
     {
-
         name: "Ruchita",
         memory:
             "Some bonds were never loud, just quietly important from the beginning",
@@ -50,41 +60,21 @@ const girls = [
         memory:
             "The same humor, the same music taste, and the same nonchalant energy made the friendship feel effortless, sarcastic, and genuinely comfortable - even though we became friends in the last month of the first year",
     },
-
-   
-
     {
         name: "Himanshi",
         memory:
             "Project chaos, and helping each other during DTI, the friendship quietly became memorable",
     },
-     {
+    {
         name: "Priya Zade",
         memory:
             "Between random jokes during lectures and chaotic backbench energy, boredom never really existed",
     },
-
     {
         name: "Ridhhi Yenkar",
         memory:
             "Between backbench chaos, engineering graphics help, and full bhai energy, the friendship somehow always felt comfortable",
     },
-
-    // {
-    //     name: "Arya Patil",
-    //     memory:
-    //         "From being part of the DTI team to sacrificing the party for the project",
-    // },
-
-    // {
-    //     name: "Mohini Patil",
-    //     memory:
-    //         "Your memory here.",
-    // },
-
-    
-
-
 ];
 
 const MemorySection = () => {

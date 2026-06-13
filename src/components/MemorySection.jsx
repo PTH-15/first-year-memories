@@ -131,7 +131,7 @@ const MemorySection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7 }}
                             viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center px-16 md:px-40 ${index % 2 !== 0
+                            className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
                                 ? "md:[&>*:first-child]:order-2"
                                 : ""
                                 }`}
@@ -165,9 +165,7 @@ const MemorySection = () => {
 
 
 
-                                <h2>
-                                    {person.name}
-                                </h2>
+                        
 
                                 <p className="text-gray-400 text-lg leading-loose max-w-xl">
                                     {person.memory}
@@ -200,7 +198,7 @@ const MemorySection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7 }}
                             viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center px-16 md:px-40 ${index % 2 !== 0
+                            className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
                                 ? "md:[&>*:first-child]:order-2"
                                 : ""
                                 }`}
@@ -236,9 +234,6 @@ const MemorySection = () => {
                                     {person.memory}
                                 </p>
 
-                                <h2>
-                                    {person.name}
-                                </h2>
 
                             </div>
 

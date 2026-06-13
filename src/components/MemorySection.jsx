@@ -122,58 +122,59 @@ const MemorySection = () => {
                 >
                     {/* The Boys */}
                 </motion.h1>
-
-                <div className="space-y-56">
-                    {boys.map((person, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 80 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7 }}
-                            viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
-                                ? "md:[&>*:first-child]:order-2"
-                                : ""
-                                }`}
-                        >
-
+                <div className="pl-24 md:pl-40">
+                    <div className="space-y-56">
+                        {boys.map((person, index) => (
                             <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                className="relative group"
+                                key={index}
+                                initial={{ opacity: 0, y: 80 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.7 }}
+                                viewport={{ once: true }}
+                                className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
+                                    ? "md:[&>*:first-child]:order-2"
+                                    : ""
+                                    }`}
                             >
-                                <div className="absolute -inset-3 bg-gradient-to-r from-violet-500/20 to-pink-500/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-700 rounded-3xl" />
 
-                                <img
-                                    src={`/images/${person.name
-                                        .toLowerCase()
-                                        .replace(/ /g, "-")}.jpg`}
-                                    alt={person.name}
-                                    className="relative w-full h-[550px] object-cover rounded-3xl shadow-2xl"
-                                />
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    className="relative group"
+                                >
+                                    <div className="absolute -inset-3 bg-gradient-to-r from-violet-500/20 to-pink-500/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-700 rounded-3xl" />
+
+                                    <img
+                                        src={`/images/${person.name
+                                            .toLowerCase()
+                                            .replace(/ /g, "-")}.jpg`}
+                                        alt={person.name}
+                                        className="relative w-full h-[550px] object-cover rounded-3xl shadow-2xl"
+                                    />
+                                </motion.div>
+
+                                <div className="space-y-6 pl-8 md:pl-16">
+                                    <p className="uppercase tracking-[8px] text-sm text-violet-400">
+                                        FIRST YEAR MEMORY
+                                    </p>
+
+                                    <h2 className="text-4xl md:text-5xl font-black leading-tight">
+                                        {person.name}
+                                    </h2>
+
+                                    <div className="w-24 h-[2px] bg-violet-400" />
+
+
+
+                            
+
+                                    <p className="text-gray-400 text-lg leading-loose max-w-xl">
+                                        {person.memory}
+                                    </p>
+                                </div>
+
                             </motion.div>
-
-                            <div className="space-y-6 pl-8 md:pl-16">
-                                <p className="uppercase tracking-[8px] text-sm text-violet-400">
-                                    FIRST YEAR MEMORY
-                                </p>
-
-                                <h2 className="text-4xl md:text-5xl font-black leading-tight">
-                                    {person.name}
-                                </h2>
-
-                                <div className="w-24 h-[2px] bg-violet-400" />
-
-
-
-                        
-
-                                <p className="text-gray-400 text-lg leading-loose max-w-xl">
-                                    {person.memory}
-                                </p>
-                            </div>
-
-                        </motion.div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
 
@@ -189,56 +190,57 @@ const MemorySection = () => {
                 >
                     {/* The Girls */}
                 </motion.h1>
-
-                <div className="space-y-56">
-                    {girls.map((person, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 80 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7 }}
-                            viewport={{ once: true }}
-                            className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
-                                ? "md:[&>*:first-child]:order-2"
-                                : ""
-                                }`}
-                        >
-
+                <div className="pl-24 md:pl-40">
+                    <div className="space-y-56">
+                        {girls.map((person, index) => (
                             <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                className="relative group"
+                                key={index}
+                                initial={{ opacity: 0, y: 80 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.7 }}
+                                viewport={{ once: true }}
+                                className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
+                                    ? "md:[&>*:first-child]:order-2"
+                                    : ""
+                                    }`}
                             >
-                                <div className="absolute -inset-3 bg-gradient-to-r from-pink-500/20 to-violet-500/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-700 rounded-3xl" />
 
-                                <img
-                                    src={`/images/${person.name
-                                        .toLowerCase()
-                                        .replace(/ /g, "-")}.jpg`}
-                                    alt={person.name}
-                                    className="relative w-full h-[550px] object-cover rounded-3xl shadow-2xl"
-                                />
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    className="relative group"
+                                >
+                                    <div className="absolute -inset-3 bg-gradient-to-r from-pink-500/20 to-violet-500/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-700 rounded-3xl" />
+
+                                    <img
+                                        src={`/images/${person.name
+                                            .toLowerCase()
+                                            .replace(/ /g, "-")}.jpg`}
+                                        alt={person.name}
+                                        className="relative w-full h-[550px] object-cover rounded-3xl shadow-2xl"
+                                    />
+                                </motion.div>
+
+                                <div className="space-y-6 pl-8 md:pl-16">
+                                    <p className="uppercase tracking-[8px] text-sm text-violet-400">
+                                        FIRST YEAR MEMORY
+                                    </p>
+
+                                    <h2 className="text-4xl md:text-5xl font-black leading-tight">
+                                        {person.name}
+                                    </h2>
+
+                                    <div className="w-24 h-[2px] bg-violet-400" />
+
+                                    <p className="text-gray-400 text-lg leading-loose max-w-xl">
+                                        {person.memory}
+                                    </p>
+
+
+                                </div>
+
                             </motion.div>
-
-                            <div className="space-y-6 pl-8 md:pl-16">
-                                <p className="uppercase tracking-[8px] text-sm text-violet-400">
-                                    FIRST YEAR MEMORY
-                                </p>
-
-                                <h2 className="text-4xl md:text-5xl font-black leading-tight">
-                                    {person.name}
-                                </h2>
-
-                                <div className="w-24 h-[2px] bg-violet-400" />
-
-                                <p className="text-gray-400 text-lg leading-loose max-w-xl">
-                                    {person.memory}
-                                </p>
-
-
-                            </div>
-
-                        </motion.div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
 

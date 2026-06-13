@@ -122,17 +122,17 @@ const MemorySection = () => {
                 >
                     {/* The Boys */}
                 </motion.h1>
-                <div className="pl-24 md:pl-40">
+                {/* <div className="pl-24 md:pl-40"> */}
                     <div className="space-y-56">
                         {boys.map((person, index) => (
                             <motion.div
                                 key={index}
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                style={{ marginLeft: "200px" }}
+                                // style={{ marginLeft: "200px" }}
                                 transition={{ duration: 0.7 }}
                                 viewport={{ once: true }}
-                                className={`mx-10 md:mx-24 grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
+                                className={`max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
                                     ? "md:[&>*:first-child]:order-2"
                                     : ""
                                     }`}
@@ -153,7 +153,7 @@ const MemorySection = () => {
                                     />
                                 </motion.div>
 
-                                <div className="space-y-6 pl-8 md:pl-16">
+                                <div className="space-y-6">
                                     <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                         FIRST YEAR MEMORY
                                     </p>
@@ -176,7 +176,7 @@ const MemorySection = () => {
                             </motion.div>
                         ))}
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
             {/* GIRLS SECTION */}
@@ -191,7 +191,7 @@ const MemorySection = () => {
                 >
                     {/* The Girls */}
                 </motion.h1>
-                <div className="pl-24 md:pl-40">
+                {/* <div className="pl-24 md:pl-40"> */}
                     <div className="space-y-56">
                         {girls.map((person, index) => (
                             <motion.div
@@ -199,9 +199,9 @@ const MemorySection = () => {
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.7 }}
-                                style={{ marginLeft: "200px" }}
+                                // style={{ marginLeft: "200px" }}
                                 viewport={{ once: true }}
-                                className={`mx-10 md:mx-24 grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
+                                className={`max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
                                     ? "md:[&>*:first-child]:order-2"
                                     : ""
                                     }`}
@@ -222,7 +222,7 @@ const MemorySection = () => {
                                     />
                                 </motion.div>
 
-                                <div className="space-y-6 pl-8 md:pl-16">
+                                <div className="space-y-6">
                                     <p className="uppercase tracking-[8px] text-sm text-violet-400">
                                         FIRST YEAR MEMORY
                                     </p>
@@ -243,7 +243,7 @@ const MemorySection = () => {
                             </motion.div>
                         ))}
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
         </section>

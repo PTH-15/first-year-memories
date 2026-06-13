@@ -129,9 +129,10 @@ const MemorySection = () => {
                                 key={index}
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                style={{ marginLeft: "200px" }}
                                 transition={{ duration: 0.7 }}
                                 viewport={{ once: true }}
-                                className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
+                                className={`mx-10 md:mx-24 grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
                                     ? "md:[&>*:first-child]:order-2"
                                     : ""
                                     }`}
@@ -198,8 +199,9 @@ const MemorySection = () => {
                                 initial={{ opacity: 0, y: 80 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.7 }}
+                                style={{ marginLeft: "200px" }}
                                 viewport={{ once: true }}
-                                className={`grid md:grid-cols-2 gap-20 items-center pl-32 pr-16 md:pl-56 md:pr-40 ${index % 2 !== 0
+                                className={`mx-10 md:mx-24 grid md:grid-cols-2 gap-20 items-center ${index % 2 !== 0
                                     ? "md:[&>*:first-child]:order-2"
                                     : ""
                                     }`}

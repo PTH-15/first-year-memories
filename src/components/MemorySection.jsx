@@ -9,12 +9,12 @@ const boys = [
     {
         name: "Arjun Sawant",
         memory:
-            "The kind of guy who looked clueless",
+            "Padhaku overthinker who somehow turns every confusing topic into random nonsense. One correct answer makes his day, he never gets angry at our jokes, and he'll forever be remembered by the caption: His back felt unhealthy, so he preferred to rest on a palang (RIP). ",
     },
     {
         name: "Pruthviraj Patil",
         memory:
-            "Most Chaotic Person I've Ever Met",
+            "Most Chaotic Person I've Ever Met, someone I initially misunderstood, but he quickly became the guy who could lighten any mood. His random questions, endless backchodi, and energy made college days far more memorable.",
     },
     {
         name: "Chaitanya Kharude",
@@ -24,7 +24,7 @@ const boys = [
     {
         name: "Ganesh Mahajan",
         memory:
-            "The kind of friend who never took anything seriously",
+            "The kind of friend who never took anything seriously ,constantly proved first impressions wrong. Always ready to help, he never hesitated when someone needed support. His quiet presence and reliability made him a valued friend throughout first year.",
     },
     {
         name: "Daksh Tembre",
@@ -34,12 +34,12 @@ const boys = [
     {
         name: "Prabhu Pahanapate",
         memory:
-            "The One who motivates me to start my learning journey of the programming",
+            "classmate, motivator. Always pushing me to learn new coding languages, planning legendary projects that never start.",
     },
     {
         name: "Aryan Bhosale",
         memory:
-            "My after college ride buddy",
+            "more than just a college friend he's my favorite ride buddy. Funny, caring, and always ready to help, he never says no when someone needs him. Our chats are filled with memes all day long. He's a little dark on the outside, but his heart is pure gold and full of kindness",
     }
 ];
 
